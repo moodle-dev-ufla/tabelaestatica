@@ -23,8 +23,22 @@
 require(__DIR__.'/../../config.php');
 require_once($CFG->libdir.'/adminlib.php');
 
-admin_externalpage_setup('reportolamundo', '', null, '', array('pagelayout'=>'report'));
+admin_externalpage_setup('reporttabelaestatica', '', null, '', array('pagelayout'=>'report'));
 
 echo $OUTPUT->header();
-echo $OUTPUT->heading(get_string('pluginname',  'report_olamundo'));
+echo $OUTPUT->heading(get_string('pluginname',  'report_tabelaestatica'));
+
+$table = new html_table();
+$table->head = array(
+    get_string('col_name', 'report_tabelaestatica'), 
+    get_string('col_city', 'report_tabelaestatica'),
+    get_string('col_state', 'report_tabelaestatica')
+);
+$table->data = array(
+    array('Paulo', 'Lavras', 'MG'),
+    array('José', 'Belo Horizonte', 'MG'),
+    array('Maria', 'São Carlos', 'SP')
+);
+echo html_writer::table($table);
+
 echo $OUTPUT->footer();

@@ -24,4 +24,4 @@ defined('MOODLE_INTERNAL') || die;
 
 $plugin->version   = 2019080100;         // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2015051100;         // Requires this Moodle version (see https://docs.moodle.org/dev/Releases)
-$plugin->component = 'report_olamundo';  // Full name of the plugin
+$plugin->component = 'report_tabelaestatica';  // Full name of the plugin

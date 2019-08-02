@@ -14,11 +14,13 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 /**
- * Strings for component, language 'en'
+ * Strings for component, language 'pt_br'
  *
  * @package    report
  * @copyright  2019 Paulo Jr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'Hello World';
-$string['heading'] = 'This is my first plugin';
+$string['pluginname'] = 'Tabela estática';
+$string['col_name'] = 'Nome';
+$string['col_city'] = 'Cidade';
+$string['col_state'] = 'Estado';

@@ -1,2 +1,2 @@
-# Plugin Olá Mundo
-Trata-se de um *template* para plugins do tipo relatório. Para utilizá-lo, basta clonar este repositório e fazer as alterações necessárias.
+# Plugin Tabela estática
+Trata-se de um plugin do tipo relatório que apresenta uma tabela estática na tela.
