@@ -29,6 +29,9 @@ echo $OUTPUT->header();
 echo $OUTPUT->heading(get_string('pluginname',  'report_tabelaestatica'));
 
 $table = new html_table();
+
+$table->size = array('50%', '35%', '15%');
+
 $table->head = array(
     get_string('col_name', 'report_tabelaestatica'), 
     get_string('col_city', 'report_tabelaestatica'),
